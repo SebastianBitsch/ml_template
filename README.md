@@ -1,6 +1,7 @@
 # python machine learning / deep learning template
-Bare bones, no junk. Install 
+Install 
 ---
+Bare bones, no junk.
 
 Stolen from [cookiecutter-data-science](https://github.com/drivendata/cookiecutter-data-science) template.
 
