@@ -1,4 +1,6 @@
 docs/site/
+logs/
+notebooks/
 
 # test cache
 manual_test/
