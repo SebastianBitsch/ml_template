@@ -1,14 +1,14 @@
 # python machine learning / deep learning template
-Install 
----
-Bare bones, no junk.
+> Bare bones, no junk.
 
-Stolen from [cookiecutter-data-science](https://github.com/drivendata/cookiecutter-data-science) template.
+Most of it is completely stolen from [cookiecutter-data-science](https://github.com/drivendata/cookiecutter-data-science) template.
 
 ## Requirements to use the template:
 
 * Python 3.11
 * Cookiecutter v2.4.0
+
+(but other versions might also work)
 
 ## Start a new project
 
@@ -18,10 +18,14 @@ Start by creating a repository either using the Github GUI in the webbrowser or 
 ```bash
 gh repo create <repo_name> --public --confirm
 ```
-Afterwards on your local machine run
+Afterwards on your local machine in the directory you want the project to be created in, run:
 
 ```bash
 cookiecutter https://github.com/sebastianbitsch/ml_template
+```
+if that doesnt work, it can be done with python:
+```bash
+python3 -m cookiecutter https://github.com/sebastianbitsch/ml_template
 ```
 
 and input starting values for the project. When asked for the repository name when creating the template,
@@ -38,5 +42,5 @@ git init
 git add .
 git commit -m "init cookiecutter project"
 git remote add origin https://github.com/<username>/<repo_name>
-git push origin master
+git push origin main
 ```
